@@ -1,0 +1,246 @@
+$ vitest run
+
+ RUN  v3.2.4 C:/Users/Administrator/Documents/ChatGPT/web3/contributions/genlayer-2026-10-21/profile05/projects/config-cohort/frontend
+
+ ❯ tests/domain.test.ts (7 tests | 7 failed) 25ms
+   × finds the literal minimum weighted repair and all models 14ms
+     → not implemented
+   × shows exactly the baseline clause violations and witnesses 2ms
+     → not implemented
+   × breaks equal-cost model ties by false-first ASCII-variable bits 1ms
+     → not implemented
+   × represents UNSAT without invented assignment or confirm action 1ms
+     → not implemented
+   × rejects incomplete manual assignments and malformed source fields 1ms
+     → not implemented
+   × binds a chain recommendation to the actual returned source 1ms
+     → not implemented
+   × gates confirmation by owner and derived SAT status 1ms
+     → not implemented
+ ❯ tests/wallet.test.ts (15 tests | 15 failed) 47ms
+   × accepts the actual SDK decoded dictionary response 15ms
+     → not implemented
+   × rejects malformed dictionary boundary null 2ms
+     → not implemented
+   × rejects malformed dictionary boundary %j 1ms
+     → not implemented
+   × rejects malformed dictionary boundary 42 1ms
+     → not implemented
+   × rejects malformed dictionary boundary "{\"record_id\":\"demo\"}" 1ms
+     → not implemented
+   × rejects malformed dictionary boundary true 1ms
+     → not implemented
+   × propagates RPC view errors 2ms
+     → not implemented
+     → RPC unavailable
+   × requires a real deployment and the actual wallet network 14ms
+     → expected [Function] to throw error including 'deployment' but got 'not implemented'
+   × requires immutable own-project source path and exact digest before signing 1ms
+     → not implemented
+   × reads updated state only after finality plus successful execution evidence 1ms
+     → not implemented
+   × preserves unresolved or failed transaction without reading or resending 1ms
+     → not implemented
+   × preserves unresolved or failed transaction without reading or resending 1ms
+     → not implemented
+   × preserves unresolved or failed transaction without reading or resending 1ms
+     → not implemented
+   × preserves unresolved or failed transaction without reading or resending 1ms
+     → not implemented
+   × retains submitted transaction when waiting times out 1ms
+     → not implemented
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 22 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/domain.test.ts > finds the literal minimum weighted repair and all models
+Error: not implemented
+ ❯ validatePolicy src/domain.ts:1:58
+      1| export function validatePolicy(..._args:any[]):any{throw Error('not im…
+       |                                                          ^
+      2| export function recommend(..._args:any[]):any{throw Error('not impleme…
+      3| export function compare(..._args:any[]):any{throw Error('not implement…
+ ❯ tests/domain.test.ts:4:81
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/23]⎯
+
+ FAIL  tests/domain.test.ts > shows exactly the baseline clause violations and witnesses
+Error: not implemented
+ ❯ validatePolicy src/domain.ts:1:58
+      1| export function validatePolicy(..._args:any[]):any{throw Error('not im…
+       |                                                          ^
+      2| export function recommend(..._args:any[]):any{throw Error('not impleme…
+      3| export function compare(..._args:any[]):any{throw Error('not implement…
+ ❯ tests/domain.test.ts:5:85
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/23]⎯
+
+ FAIL  tests/domain.test.ts > breaks equal-cost model ties by false-first ASCII-variable bits
+Error: not implemented
+ ❯ validatePolicy src/domain.ts:1:58
+      1| export function validatePolicy(..._args:any[]):any{throw Error('not im…
+       |                                                          ^
+      2| export function recommend(..._args:any[]):any{throw Error('not impleme…
+      3| export function compare(..._args:any[]):any{throw Error('not implement…
+ ❯ tests/domain.test.ts:6:83
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/23]⎯
+
+ FAIL  tests/domain.test.ts > represents UNSAT without invented assignment or confirm action
+Error: not implemented
+ ❯ validatePolicy src/domain.ts:1:58
+      1| export function validatePolicy(..._args:any[]):any{throw Error('not im…
+       |                                                          ^
+      2| export function recommend(..._args:any[]):any{throw Error('not impleme…
+      3| export function compare(..._args:any[]):any{throw Error('not implement…
+ ❯ tests/domain.test.ts:7:82
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/23]⎯
+
+ FAIL  tests/domain.test.ts > rejects incomplete manual assignments and malformed source fields
+Error: not implemented
+ ❯ validatePolicy src/domain.ts:1:58
+      1| export function validatePolicy(..._args:any[]):any{throw Error('not im…
+       |                                                          ^
+      2| export function recommend(..._args:any[]):any{throw Error('not impleme…
+      3| export function compare(..._args:any[]):any{throw Error('not implement…
+ ❯ tests/domain.test.ts:8:85
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/23]⎯
+
+ FAIL  tests/domain.test.ts > binds a chain recommendation to the actual returned source
+Error: not implemented
+ ❯ validatePolicy src/domain.ts:1:58
+      1| export function validatePolicy(..._args:any[]):any{throw Error('not im…
+       |                                                          ^
+      2| export function recommend(..._args:any[]):any{throw Error('not impleme…
+      3| export function compare(..._args:any[]):any{throw Error('not implement…
+ ❯ tests/domain.test.ts:9:78
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/23]⎯
+
+ FAIL  tests/domain.test.ts > gates confirmation by owner and derived SAT status
+Error: not implemented
+ ❯ canConfirm src/domain.ts:4:54
+      2| export function recommend(..._args:any[]):any{throw Error('not impleme…
+      3| export function compare(..._args:any[]):any{throw Error('not implement…
+      4| export function canConfirm(..._args:any[]):any{throw Error('not implem…
+       |                                                      ^
+      5| export function assertChainResult(..._args:any[]):any{throw Error('not…
+      6| 
+ ❯ tests/domain.test.ts:10:134
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/23]⎯
+
+ FAIL  tests/wallet.test.ts > accepts the actual SDK decoded dictionary response
+Error: not implemented
+ ❯ Module.readRecord src/wallet.ts:1:54
+      1| export function readRecord(..._args:any[]):any{throw Error('not implem…
+       |                                                      ^
+      2| export function settle(..._args:any[]):any{throw Error('not implemente…
+      3| export function assertTarget(..._args:any[]):any{throw Error('not impl…
+ ❯ tests/wallet.test.ts:9:168
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/23]⎯
+
+ FAIL  tests/wallet.test.ts > rejects malformed dictionary boundary null
+ FAIL  tests/wallet.test.ts > rejects malformed dictionary boundary %j
+ FAIL  tests/wallet.test.ts > rejects malformed dictionary boundary 42
+ FAIL  tests/wallet.test.ts > rejects malformed dictionary boundary "{\"record_id\":\"demo\"}"
+ FAIL  tests/wallet.test.ts > rejects malformed dictionary boundary true
+Error: not implemented
+ ❯ Module.readRecord src/wallet.ts:1:54
+      1| export function readRecord(..._args:any[]):any{throw Error('not implem…
+       |                                                      ^
+      2| export function settle(..._args:any[]):any{throw Error('not implemente…
+      3| export function assertTarget(..._args:any[]):any{throw Error('not impl…
+ ❯ tests/wallet.test.ts:10:173
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/23]⎯
+
+ FAIL  tests/wallet.test.ts > propagates RPC view errors
+Error: not implemented
+ ❯ Module.readRecord src/wallet.ts:1:54
+      1| export function readRecord(..._args:any[]):any{throw Error('not implem…
+       |                                                      ^
+      2| export function settle(..._args:any[]):any{throw Error('not implemente…
+      3| export function assertTarget(..._args:any[]):any{throw Error('not impl…
+ ❯ tests/wallet.test.ts:11:123
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/23]⎯
+
+ FAIL  tests/wallet.test.ts > propagates RPC view errors
+Error: RPC unavailable
+ ❯ tests/wallet.test.ts:11:84
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/23]⎯
+
+ FAIL  tests/wallet.test.ts > requires a real deployment and the actual wallet network
+AssertionError: expected [Function] to throw error including 'deployment' but got 'not implemented'
+
+Expected: "deployment"
+Received: "not implemented"
+
+ ❯ tests/wallet.test.ts:12:103
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/23]⎯
+
+ FAIL  tests/wallet.test.ts > requires immutable own-project source path and exact digest before signing
+Error: not implemented
+ ❯ Module.lockArgs src/wallet.ts:4:52
+      2| export function settle(..._args:any[]):any{throw Error('not implemente…
+      3| export function assertTarget(..._args:any[]):any{throw Error('not impl…
+      4| export function lockArgs(..._args:any[]):any{throw Error('not implemen…
+       |                                                    ^
+      5| 
+ ❯ tests/wallet.test.ts:13:227
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/23]⎯
+
+ FAIL  tests/wallet.test.ts > reads updated state only after finality plus successful execution evidence
+Error: not implemented
+ ❯ Module.settle src/wallet.ts:2:50
+      1| export function readRecord(..._args:any[]):any{throw Error('not implem…
+      2| export function settle(..._args:any[]):any{throw Error('not implemente…
+       |                                                  ^
+      3| export function assertTarget(..._args:any[]):any{throw Error('not impl…
+      4| export function lockArgs(..._args:any[]):any{throw Error('not implemen…
+ ❯ tests/wallet.test.ts:15:132
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/23]⎯
+
+ FAIL  tests/wallet.test.ts > preserves unresolved or failed transaction without reading or resending
+ FAIL  tests/wallet.test.ts > preserves unresolved or failed transaction without reading or resending
+ FAIL  tests/wallet.test.ts > preserves unresolved or failed transaction without reading or resending
+ FAIL  tests/wallet.test.ts > preserves unresolved or failed transaction without reading or resending
+Error: not implemented
+ ❯ Module.settle src/wallet.ts:2:50
+      1| export function readRecord(..._args:any[]):any{throw Error('not implem…
+      2| export function settle(..._args:any[]):any{throw Error('not implemente…
+       |                                                  ^
+      3| export function assertTarget(..._args:any[]):any{throw Error('not impl…
+      4| export function lockArgs(..._args:any[]):any{throw Error('not implemen…
+ ❯ tests/wallet.test.ts:16:295
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/23]⎯
+
+ FAIL  tests/wallet.test.ts > retains submitted transaction when waiting times out
+Error: not implemented
+ ❯ Module.settle src/wallet.ts:2:50
+      1| export function readRecord(..._args:any[]):any{throw Error('not implem…
+      2| export function settle(..._args:any[]):any{throw Error('not implemente…
+       |                                                  ^
+      3| export function assertTarget(..._args:any[]):any{throw Error('not impl…
+      4| export function lockArgs(..._args:any[]):any{throw Error('not implemen…
+ ❯ tests/wallet.test.ts:17:97
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/23]⎯
+
+
+ Test Files  2 failed (2)
+      Tests  22 failed (22)
+   Start at  06:07:52
+   Duration  2.06s (transform 227ms, setup 0ms, collect 606ms, tests 71ms, environment 1ms, prepare 1.04s)
+
+[ELIFECYCLE] Test failed. See above for more details.

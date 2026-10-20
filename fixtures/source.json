@@ -1,0 +1,10 @@
+{
+  "license": "MIT",
+  "synthetic": true,
+  "pii": false,
+  "test_url": "https://raw.githubusercontent.com/fixture-lab/genlayer-profile05/0000000000000000000000000000000000000000/profile05/projects/config-cohort/fixtures/policy.json",
+  "public_url": null,
+  "sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+  "publication": null,
+  "note": "test_url is an explicit test locator, not evidence that these bytes are published. Replace with the real immutable public commit URL only after independent byte verification."
+}

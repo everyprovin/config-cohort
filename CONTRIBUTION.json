@@ -1,0 +1,37 @@
+{
+  "id": "config-cohort",
+  "title": "ConfigCohort",
+  "profile": "profile05",
+  "category": "Project",
+  "summary": "An exact minimum-change Boolean feature policy workbench with explicit CNF constraint witnesses.",
+  "originality": "Original domain-specific application and fixtures, not a renamed existing Intelligent Contract.",
+  "license": "MIT",
+  "contract_path": "contract.py",
+  "contract_sha256": "9cee2f6a7c660df44831919cea9b8e1ede60e58b3492c58780c4973e5b90db54",
+  "constructor_args": [],
+  "fixture": {
+    "path": "fixtures/policy.json",
+    "sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+    "synthetic": true,
+    "pii": false,
+    "test_url": "https://raw.githubusercontent.com/fixture-lab/genlayer-profile05/0000000000000000000000000000000000000000/profile05/projects/config-cohort/fixtures/policy.json",
+    "public_url": null
+  },
+  "local_sdk_tests": 33,
+  "local_frontend_tests": 54,
+  "independent_review": {
+    "status": "independent_read_only_local_scope_passed",
+    "reviewer": "/root/genlayer_contract_pair02",
+    "record": "evidence/independent-review.json",
+    "record_sha256": "2a98deab96acd12b002538918978b7de5b7bf6307f1d587793f985e2b56db6bc"
+  },
+  "deployment": null,
+  "publication": null,
+  "hosting": null,
+  "live_wallet_business_flow": null,
+  "browser_visual_review": null,
+  "actual_users": null,
+  "financing": null,
+  "awards": null,
+  "contract_counted_separately_as_ic": false
+}
