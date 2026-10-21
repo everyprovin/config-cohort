@@ -1,0 +1,43 @@
+{
+  "schema": "ConfigCohort-policy-v1",
+  "variables": [
+    {
+      "id": "audit",
+      "baseline": false,
+      "flip_weight": 5
+    },
+    {
+      "id": "cache",
+      "baseline": false,
+      "flip_weight": 2
+    },
+    {
+      "id": "preview",
+      "baseline": true,
+      "flip_weight": 1
+    },
+    {
+      "id": "telemetry",
+      "baseline": false,
+      "flip_weight": 3
+    }
+  ],
+  "clauses": [
+    [
+      "cache",
+      "audit"
+    ],
+    [
+      "!preview",
+      "audit"
+    ],
+    [
+      "!telemetry",
+      "audit"
+    ],
+    [
+      "!cache",
+      "!telemetry"
+    ]
+  ]
+}
