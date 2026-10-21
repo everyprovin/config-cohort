@@ -2,10 +2,104 @@
   "protocol": "ConfigCohort-v1",
   "network": "studio",
   "chain_id": 61999,
-  "contract_address": null,
-  "deployment_tx": null,
-  "deployment": null,
-  "publication": null,
-  "hosting": null,
-  "live_wallet_test": null
+  "contract_address": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+  "deployment_tx": "0x5042ed889243387ea6f2534fc87c4f00995612947993285de972090a05a59821",
+  "deployment": {
+    "status": "FINALIZED",
+    "execution_result": "SUCCESS",
+    "execution_mode": "NORMAL",
+    "leader_only": false,
+    "consensus_result": "MAJORITY_AGREE",
+    "value": 0,
+    "constructor_args": [],
+    "source_sha256": "9cee2f6a7c660df44831919cea9b8e1ede60e58b3492c58780c4973e5b90db54",
+    "source_readback_verified": true,
+    "recorded_at": "2026-10-20T23:54:42.716Z",
+    "constructor_evidence_url": "https://raw.githubusercontent.com/everyprovin/config-cohort/471f86a06729d5ed6ba2835267ffd376abe17b1b/evidence/constructor-deployment-record-001.json",
+    "constructor_evidence_sha256": "fd63a419c353463689e13abe76d1a281e4cd1127616ffefebc91883f5330dcb1"
+  },
+  "publication": {
+    "repository": "https://github.com/everyprovin/config-cohort",
+    "frontend_revision": 2,
+    "frontend_commit": "471f86a06729d5ed6ba2835267ffd376abe17b1b",
+    "fixture_url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json",
+    "fixture_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+    "new_live_evidence_commit": null
+  },
+  "hosting": {
+    "url": "https://everyprovin.github.io/config-cohort/",
+    "provider": "GitHub Pages",
+    "frontend_commit": "471f86a06729d5ed6ba2835267ffd376abe17b1b",
+    "served_assets_verified_before_main_workflow": true
+  },
+  "live_wallet_test": {
+    "verified": true,
+    "frontend_revision": 2,
+    "frontend_commit": "471f86a06729d5ed6ba2835267ffd376abe17b1b",
+    "record_id": "ConfigH1022A",
+    "status": "CONFIRMED",
+    "revision": 2,
+    "certificate": "7b27227609082251795cdce809268f85fb09668a458807e5e6be713d214c1b87",
+    "transactions": {
+      "lock_source": "0x584c4a196073749e8243ba696ee32b267d8734b94bb089560c786a67522f978f",
+      "derive": "0xd0bdb3c8eef05f78946b4d4d485cbcb7a6154d869827643e471db942dc3801a6",
+      "confirm": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb"
+    },
+    "result": {
+      "assignment": {
+        "audit": false,
+        "cache": true,
+        "preview": false,
+        "telemetry": false
+      },
+      "bits": "0100",
+      "clauses": [
+        {
+          "index": 0,
+          "satisfied_by": [
+            "cache"
+          ]
+        },
+        {
+          "index": 1,
+          "satisfied_by": [
+            "!preview"
+          ]
+        },
+        {
+          "index": 2,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        },
+        {
+          "index": 3,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        }
+      ],
+      "decision": "SAT",
+      "examined": 16,
+      "flip_cost": 3,
+      "flips": [
+        "cache",
+        "preview"
+      ],
+      "model_count": 7
+    },
+    "evidence": "evidence/live/main-workflow.json",
+    "independent_confirm_evidence": "evidence/live/independent-confirm.json",
+    "observed_at": "2026-10-21T19:42:13.263Z",
+    "scope": "lock_source -> derive -> owner confirm, one operator, synthetic public policy; no live Revoke or independent adoption.",
+    "portal": {
+      "submitted": false,
+      "accepted": false,
+      "snapshot_at": "2026-10-21T19:45:48.175072+00:00"
+    },
+    "snapshot_at": "2026-10-21T19:45:48.175072+00:00",
+    "user_manually_confirmed_all_business_transactions": true,
+    "security_warnings_preserved": true,
+    "automated_warning_override_clicked": false
+  }
 }

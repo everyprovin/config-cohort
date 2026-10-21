@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-10-21T19:41:59.585Z",
+  "reviewer": "/root/genlayer_contract_pair02",
+  "scope": "Independent CLI official SDK1.1.8 read-only Studio61999 observation of one original ConfigCohort confirm transaction, get_record and immutable synthetic policy fixture; full service objects RAM-only.",
+  "profileSeq": 5,
+  "project": "ConfigCohort",
+  "chainId": 61999,
+  "rpcChainId": 61999,
+  "rpcURL": "https://studio.genlayer.com/api",
+  "transactionHash": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb",
+  "owner": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+  "contract": "0x5f2d1d6515659dd53a19f4beea2f25d24333c3df",
+  "recordId": "ConfigH1022A",
+  "verdict": "FINALIZED_CONFIRMED2_EXACT_SAT_CERTIFICATE_VERIFIED",
+  "finalizedStrictProofVerified": true,
+  "proof": {
+    "hash": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb",
+    "raw": {
+      "hash": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb",
+      "from_address": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "to_address": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "value": 0,
+      "status": "FINALIZED",
+      "execution_mode": "NORMAL",
+      "leader_only": false,
+      "result_name": "MAJORITY_AGREE",
+      "consensus_data": {
+        "leader_receipt": [
+          {
+            "mode": "leader",
+            "execution_result": "SUCCESS"
+          }
+        ]
+      }
+    },
+    "sdk": {
+      "hash": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb",
+      "from_address": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "sender": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "to_address": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "recipient": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "status": 7,
+      "statusName": "FINALIZED",
+      "execution_mode": "NORMAL",
+      "leader_only": false,
+      "result_name": "MAJORITY_AGREE",
+      "result": 6,
+      "consensus_data": {
+        "leader_receipt": [
+          {
+            "mode": "leader",
+            "execution_result": "SUCCESS"
+          }
+        ]
+      }
+    }
+  },
+  "record": {
+    "certificate_id": "7b27227609082251795cdce809268f85fb09668a458807e5e6be713d214c1b87",
+    "confirmed_at": 1792611656,
+    "derived_at": 1792611154,
+    "last_capture": {
+      "binding": {
+        "chain_id": 61999,
+        "contract": "0x5f2d1d6515659dd53a19f4beea2f25d24333c3df",
+        "observed_at": 1792611656,
+        "operation": "confirm",
+        "owner": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+        "protocol": "ConfigCohort-v1",
+        "record_id": "ConfigH1022A",
+        "revision": 1,
+        "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+        "source_url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json"
+      },
+      "result": {
+        "assignment": {
+          "audit": false,
+          "cache": true,
+          "preview": false,
+          "telemetry": false
+        },
+        "bits": "0100",
+        "clauses": [
+          {
+            "index": 0,
+            "satisfied_by": [
+              "cache"
+            ]
+          },
+          {
+            "index": 1,
+            "satisfied_by": [
+              "!preview"
+            ]
+          },
+          {
+            "index": 2,
+            "satisfied_by": [
+              "!telemetry"
+            ]
+          },
+          {
+            "index": 3,
+            "satisfied_by": [
+              "!telemetry"
+            ]
+          }
+        ],
+        "decision": "SAT",
+        "examined": 16,
+        "flip_cost": 3,
+        "flips": [
+          "cache",
+          "preview"
+        ],
+        "model_count": 7
+      },
+      "source": {
+        "clauses": [
+          [
+            "cache",
+            "audit"
+          ],
+          [
+            "!preview",
+            "audit"
+          ],
+          [
+            "!telemetry",
+            "audit"
+          ],
+          [
+            "!cache",
+            "!telemetry"
+          ]
+        ],
+        "schema": "ConfigCohort-policy-v1",
+        "variables": [
+          {
+            "baseline": false,
+            "flip_weight": 5,
+            "id": "audit"
+          },
+          {
+            "baseline": false,
+            "flip_weight": 2,
+            "id": "cache"
+          },
+          {
+            "baseline": true,
+            "flip_weight": 1,
+            "id": "preview"
+          },
+          {
+            "baseline": false,
+            "flip_weight": 3,
+            "id": "telemetry"
+          }
+        ]
+      },
+      "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0"
+    },
+    "locked_at": 1792610963,
+    "owner": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+    "reason": "",
+    "record_id": "ConfigH1022A",
+    "result": {
+      "assignment": {
+        "audit": false,
+        "cache": true,
+        "preview": false,
+        "telemetry": false
+      },
+      "bits": "0100",
+      "clauses": [
+        {
+          "index": 0,
+          "satisfied_by": [
+            "cache"
+          ]
+        },
+        {
+          "index": 1,
+          "satisfied_by": [
+            "!preview"
+          ]
+        },
+        {
+          "index": 2,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        },
+        {
+          "index": 3,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        }
+      ],
+      "decision": "SAT",
+      "examined": 16,
+      "flip_cost": 3,
+      "flips": [
+        "cache",
+        "preview"
+      ],
+      "model_count": 7
+    },
+    "revision": 2,
+    "revoked_at": 0,
+    "source": {
+      "clauses": [
+        [
+          "cache",
+          "audit"
+        ],
+        [
+          "!preview",
+          "audit"
+        ],
+        [
+          "!telemetry",
+          "audit"
+        ],
+        [
+          "!cache",
+          "!telemetry"
+        ]
+      ],
+      "schema": "ConfigCohort-policy-v1",
+      "variables": [
+        {
+          "baseline": false,
+          "flip_weight": 5,
+          "id": "audit"
+        },
+        {
+          "baseline": false,
+          "flip_weight": 2,
+          "id": "cache"
+        },
+        {
+          "baseline": true,
+          "flip_weight": 1,
+          "id": "preview"
+        },
+        {
+          "baseline": false,
+          "flip_weight": 3,
+          "id": "telemetry"
+        }
+      ]
+    },
+    "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+    "source_url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json",
+    "status": "CONFIRMED"
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json",
+    "bytes": 596,
+    "sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+    "verified": true,
+    "synthetic": true
+  },
+  "priorLockEvidence": {
+    "file": "05-config-cohort-lock-independent-public-verification-001.json",
+    "sha256": "c157e6ab3d3770db92e9b39ee908a9aeb6d273b07d81cb33b649588b81edfc82"
+  },
+  "rootIntentEvidence": {
+    "file": "05-projects-live-intent-and-verification-001.json",
+    "sha256": "275387ec134f9413c40e24a21b3fe78c14977e90fdb631165424c05ac15e6956"
+  },
+  "exactExpectedResult": {
+    "decision": "SAT",
+    "assignment": {
+      "audit": false,
+      "cache": true,
+      "preview": false,
+      "telemetry": false
+    },
+    "bits": "0100",
+    "flip_cost": 3,
+    "flips": [
+      "cache",
+      "preview"
+    ],
+    "model_count": 7,
+    "examined": 16,
+    "clauses": [
+      {
+        "index": 0,
+        "satisfied_by": [
+          "cache"
+        ]
+      },
+      {
+        "index": 1,
+        "satisfied_by": [
+          "!preview"
+        ]
+      },
+      {
+        "index": 2,
+        "satisfied_by": [
+          "!telemetry"
+        ]
+      },
+      {
+        "index": 3,
+        "satisfied_by": [
+          "!telemetry"
+        ]
+      }
+    ]
+  },
+  "priorDerivedEvidence": {
+    "file": "05-config-cohort-derive-independent-public-verification-001.json",
+    "sha256": "567fde02e7e083ac8b7a95b6813cdae42c671e67dcbaba0d5fbf34dc590ac3b0"
+  },
+  "certificate": {
+    "computed": "7b27227609082251795cdce809268f85fb09668a458807e5e6be713d214c1b87",
+    "algorithm": "SHA256 of complete validated last_capture using sorted compact ASCII JSON UTF8, matching contract _canonical"
+  },
+  "singleOperatorSyntheticExample": true,
+  "liveRevokeVerified": false,
+  "contributionSubmittedOrAcceptedByThisObservation": false,
+  "issues": [],
+  "observations": [
+    {
+      "at": "2026-10-21T19:41:57.939Z",
+      "status": "FINALIZED"
+    }
+  ],
+  "checksPassed": 160,
+  "readOnlyRpcCalls": 4,
+  "elapsedMs": 3170,
+  "maxMs": 65000,
+  "script": "tmp/05-config-confirm-independent-read-001.mjs",
+  "limitations": [
+    "Only the original confirm transaction/current CONFIRMED2 snapshot are freshly observed; prior successful lock/derive are saved byte-bound references. Revoke was not exercised live. A single controlled operator and synthetic policy do not prove independent adoption, contribution submission or acceptance.",
+    "All available supplied SDK identity/finality/execution fields are checked; missing SDK fields remain absent while independent strict raw proof is mandatory.",
+    "Only explicit validated public proof/domain schema is saved. No whole response, node_config, keys, VM stdout/stderr or arbitrary raw errors are persisted or printed.",
+    "No UI/provider/wallet/send/sign/deploy/simulation/replay, source/old file/central/lock edits. One controlled synthetic demonstration is not independent adoption."
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "at": "2026-10-21T19:33:55.386Z",
+  "profileSeq": 5,
+  "project": "ConfigCohort",
+  "hash": "0xd0bdb3c8eef05f78946b4d4d485cbcb7a6154d869827643e471db942dc3801a6",
+  "record": {
+    "certificate_id": "",
+    "confirmed_at": 0,
+    "derived_at": 1792611154,
+    "last_capture": {
+      "binding": {
+        "chain_id": 61999,
+        "contract": "0x5f2d1d6515659dd53a19f4beea2f25d24333c3df",
+        "observed_at": 1792611154,
+        "operation": "derive",
+        "owner": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+        "protocol": "ConfigCohort-v1",
+        "record_id": "ConfigH1022A",
+        "revision": 0,
+        "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+        "source_url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json"
+      },
+      "result": {
+        "assignment": {
+          "audit": false,
+          "cache": true,
+          "preview": false,
+          "telemetry": false
+        },
+        "bits": "0100",
+        "clauses": [
+          {
+            "index": 0,
+            "satisfied_by": [
+              "cache"
+            ]
+          },
+          {
+            "index": 1,
+            "satisfied_by": [
+              "!preview"
+            ]
+          },
+          {
+            "index": 2,
+            "satisfied_by": [
+              "!telemetry"
+            ]
+          },
+          {
+            "index": 3,
+            "satisfied_by": [
+              "!telemetry"
+            ]
+          }
+        ],
+        "decision": "SAT",
+        "examined": 16,
+        "flip_cost": 3,
+        "flips": [
+          "cache",
+          "preview"
+        ],
+        "model_count": 7
+      },
+      "source": {
+        "clauses": [
+          [
+            "cache",
+            "audit"
+          ],
+          [
+            "!preview",
+            "audit"
+          ],
+          [
+            "!telemetry",
+            "audit"
+          ],
+          [
+            "!cache",
+            "!telemetry"
+          ]
+        ],
+        "schema": "ConfigCohort-policy-v1",
+        "variables": [
+          {
+            "baseline": false,
+            "flip_weight": 5,
+            "id": "audit"
+          },
+          {
+            "baseline": false,
+            "flip_weight": 2,
+            "id": "cache"
+          },
+          {
+            "baseline": true,
+            "flip_weight": 1,
+            "id": "preview"
+          },
+          {
+            "baseline": false,
+            "flip_weight": 3,
+            "id": "telemetry"
+          }
+        ]
+      },
+      "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0"
+    },
+    "locked_at": 1792610963,
+    "owner": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+    "reason": "",
+    "record_id": "ConfigH1022A",
+    "result": {
+      "assignment": {
+        "audit": false,
+        "cache": true,
+        "preview": false,
+        "telemetry": false
+      },
+      "bits": "0100",
+      "clauses": [
+        {
+          "index": 0,
+          "satisfied_by": [
+            "cache"
+          ]
+        },
+        {
+          "index": 1,
+          "satisfied_by": [
+            "!preview"
+          ]
+        },
+        {
+          "index": 2,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        },
+        {
+          "index": 3,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        }
+      ],
+      "decision": "SAT",
+      "examined": 16,
+      "flip_cost": 3,
+      "flips": [
+        "cache",
+        "preview"
+      ],
+      "model_count": 7
+    },
+    "revision": 1,
+    "revoked_at": 0,
+    "source": {
+      "clauses": [
+        [
+          "cache",
+          "audit"
+        ],
+        [
+          "!preview",
+          "audit"
+        ],
+        [
+          "!telemetry",
+          "audit"
+        ],
+        [
+          "!cache",
+          "!telemetry"
+        ]
+      ],
+      "schema": "ConfigCohort-policy-v1",
+      "variables": [
+        {
+          "baseline": false,
+          "flip_weight": 5,
+          "id": "audit"
+        },
+        {
+          "baseline": false,
+          "flip_weight": 2,
+          "id": "cache"
+        },
+        {
+          "baseline": true,
+          "flip_weight": 1,
+          "id": "preview"
+        },
+        {
+          "baseline": false,
+          "flip_weight": 3,
+          "id": "telemetry"
+        }
+      ]
+    },
+    "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+    "source_url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json",
+    "status": "DERIVED"
+  },
+  "proof": {
+    "hash": "0xd0bdb3c8eef05f78946b4d4d485cbcb7a6154d869827643e471db942dc3801a6",
+    "raw": {
+      "hash": "0xd0bdb3c8eef05f78946b4d4d485cbcb7a6154d869827643e471db942dc3801a6",
+      "from_address": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "to_address": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "value": 0,
+      "status": "FINALIZED",
+      "execution_mode": "NORMAL",
+      "leader_only": false,
+      "result_name": "MAJORITY_AGREE",
+      "consensus_data": {
+        "leader_receipt": [
+          {
+            "mode": "leader",
+            "execution_result": "SUCCESS"
+          }
+        ]
+      }
+    },
+    "sdk": {
+      "hash": "0xd0bdb3c8eef05f78946b4d4d485cbcb7a6154d869827643e471db942dc3801a6",
+      "from_address": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "sender": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "to_address": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "recipient": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "status": 7,
+      "statusName": "FINALIZED",
+      "execution_mode": "NORMAL",
+      "leader_only": false,
+      "result_name": "MAJORITY_AGREE",
+      "result": 6,
+      "consensus_data": {
+        "leader_receipt": [
+          {
+            "mode": "leader",
+            "execution_result": "SUCCESS"
+          }
+        ]
+      }
+    }
+  },
+  "pending": null,
+  "verified": true,
+  "exactResultMatched": true,
+  "scope": "Actual derive FINALIZED/NORMAL/MAJORITY_AGREE/unique successful leader; exact DERIVED revision1 source/binding/SAT bits0100 cost3 result verified. Confirmation not yet performed; certificate remains empty.",
+  "userManuallyConfirmed": true,
+  "rootWarningOverrideClicked": false,
+  "decodeProof": "05-config-cohort-derive-wallet-offline-decode-001.json",
+  "rawPrivateRuntimeFieldsPersisted": false
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "snapshot_at": "2026-10-21T19:45:48.175072+00:00",
+  "project": "ConfigCohort",
+  "classification": "AI-assisted synthetic prototype",
+  "chain_id": 61999,
+  "contract_address": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+  "owner_wallet": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+  "frontend_revision": 2,
+  "frontend_commit": "471f86a06729d5ed6ba2835267ffd376abe17b1b",
+  "sdk": "official genlayer-js@1.1.8",
+  "main_workflow": {
+    "verified": true,
+    "frontend_revision": 2,
+    "frontend_commit": "471f86a06729d5ed6ba2835267ffd376abe17b1b",
+    "record_id": "ConfigH1022A",
+    "status": "CONFIRMED",
+    "revision": 2,
+    "certificate": "7b27227609082251795cdce809268f85fb09668a458807e5e6be713d214c1b87",
+    "transactions": {
+      "lock_source": "0x584c4a196073749e8243ba696ee32b267d8734b94bb089560c786a67522f978f",
+      "derive": "0xd0bdb3c8eef05f78946b4d4d485cbcb7a6154d869827643e471db942dc3801a6",
+      "confirm": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb"
+    },
+    "result": {
+      "assignment": {
+        "audit": false,
+        "cache": true,
+        "preview": false,
+        "telemetry": false
+      },
+      "bits": "0100",
+      "clauses": [
+        {
+          "index": 0,
+          "satisfied_by": [
+            "cache"
+          ]
+        },
+        {
+          "index": 1,
+          "satisfied_by": [
+            "!preview"
+          ]
+        },
+        {
+          "index": 2,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        },
+        {
+          "index": 3,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        }
+      ],
+      "decision": "SAT",
+      "examined": 16,
+      "flip_cost": 3,
+      "flips": [
+        "cache",
+        "preview"
+      ],
+      "model_count": 7
+    },
+    "evidence": "evidence/live/main-workflow.json",
+    "independent_confirm_evidence": "evidence/live/independent-confirm.json",
+    "observed_at": "2026-10-21T19:42:13.263Z",
+    "scope": "lock_source -> derive -> owner confirm, one operator, synthetic public policy; no live Revoke or independent adoption."
+  },
+  "portal": {
+    "submitted": false,
+    "accepted": false,
+    "snapshot_at": "2026-10-21T19:45:48.175072+00:00"
+  },
+  "limits": {
+    "operator_count": 1,
+    "synthetic_inputs_only": true,
+    "live_revoke_verified": false,
+    "independent_adoption_claim": false,
+    "real_infrastructure_modified": false
+  },
+  "wallet_warning_handling": {
+    "warnings_preserved": true,
+    "user_manually_confirmed_observed_prompts_and_business_transactions": true,
+    "automated_warning_override_clicked": false,
+    "warning_origin_independently_cleared_claim": false
+  },
+  "new_evidence_publication": {
+    "commit": null,
+    "exact_remote_bytes_verified_by_this_preparation": false,
+    "note": "This is the timestamped local preparation snapshot; the actual new public commit and byte checks are recorded separately."
+  }
+}

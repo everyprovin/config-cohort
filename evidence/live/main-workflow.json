@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-21T19:42:13.263Z",
+  "profileSeq": 5,
+  "project": "ConfigCohort",
+  "title": "ConfigCohort",
+  "website": "https://everyprovin.github.io/config-cohort/",
+  "repository": "https://github.com/everyprovin/config-cohort",
+  "frontendRevision": 2,
+  "frontendCommit": "471f86a06729d5ed6ba2835267ffd376abe17b1b",
+  "chainId": 61999,
+  "network": "GenLayer Studio",
+  "owner": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+  "contract": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+  "recordId": "ConfigH1022A",
+  "recordStatus": "CONFIRMED",
+  "recordRevision": 2,
+  "certificate": "7b27227609082251795cdce809268f85fb09668a458807e5e6be713d214c1b87",
+  "exactResult": {
+    "assignment": {
+      "audit": false,
+      "cache": true,
+      "preview": false,
+      "telemetry": false
+    },
+    "bits": "0100",
+    "clauses": [
+      {
+        "index": 0,
+        "satisfied_by": [
+          "cache"
+        ]
+      },
+      {
+        "index": 1,
+        "satisfied_by": [
+          "!preview"
+        ]
+      },
+      {
+        "index": 2,
+        "satisfied_by": [
+          "!telemetry"
+        ]
+      },
+      {
+        "index": 3,
+        "satisfied_by": [
+          "!telemetry"
+        ]
+      }
+    ],
+    "decision": "SAT",
+    "examined": 16,
+    "flip_cost": 3,
+    "flips": [
+      "cache",
+      "preview"
+    ],
+    "model_count": 7
+  },
+  "sourceURL": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json",
+  "sourceByteSHA256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+  "transactions": {
+    "lock_source": "0x584c4a196073749e8243ba696ee32b267d8734b94bb089560c786a67522f978f",
+    "derive": "0xd0bdb3c8eef05f78946b4d4d485cbcb7a6154d869827643e471db942dc3801a6",
+    "confirm": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb"
+  },
+  "proofs": {
+    "lock": "05-config-cohort-live-lock-finalized-001.json",
+    "derive": "05-config-cohort-live-derive-finalized-001.json",
+    "confirm": "05-config-cohort-live-confirm-finalized-001.json"
+  },
+  "allThreeFinalizedNormalMajorityUniqueSuccessfulLeader": true,
+  "independentReadonlyProofs": {
+    "lock": "05-config-cohort-lock-independent-public-verification-001.json",
+    "derive": "05-config-cohort-derive-independent-public-verification-001.json"
+  },
+  "mainWorkflowVerified": true,
+  "operatorCount": 1,
+  "syntheticPublicFixture": true,
+  "revokeLiveVerified": false,
+  "actualPortalSubmitted": false,
+  "accepted": false,
+  "securityWarningsPreserved": true,
+  "userManuallyConfirmedAllBusinessTransactions": true,
+  "rootWarningOverrideClicked": false,
+  "scope": "One operator demonstrated exact synthetic policy lock -> derive -> confirm using the existing deployed contract and public frontend002. No infrastructure modification, independent adoption, production deployment, funding, award or accepted contribution is claimed."
+}

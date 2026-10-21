@@ -1,0 +1,259 @@
+{
+  "at": "2026-10-21T19:42:13.262Z",
+  "profileSeq": 5,
+  "project": "ConfigCohort",
+  "hash": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb",
+  "record": {
+    "certificate_id": "7b27227609082251795cdce809268f85fb09668a458807e5e6be713d214c1b87",
+    "confirmed_at": 1792611656,
+    "derived_at": 1792611154,
+    "last_capture": {
+      "binding": {
+        "chain_id": 61999,
+        "contract": "0x5f2d1d6515659dd53a19f4beea2f25d24333c3df",
+        "observed_at": 1792611656,
+        "operation": "confirm",
+        "owner": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+        "protocol": "ConfigCohort-v1",
+        "record_id": "ConfigH1022A",
+        "revision": 1,
+        "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+        "source_url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json"
+      },
+      "result": {
+        "assignment": {
+          "audit": false,
+          "cache": true,
+          "preview": false,
+          "telemetry": false
+        },
+        "bits": "0100",
+        "clauses": [
+          {
+            "index": 0,
+            "satisfied_by": [
+              "cache"
+            ]
+          },
+          {
+            "index": 1,
+            "satisfied_by": [
+              "!preview"
+            ]
+          },
+          {
+            "index": 2,
+            "satisfied_by": [
+              "!telemetry"
+            ]
+          },
+          {
+            "index": 3,
+            "satisfied_by": [
+              "!telemetry"
+            ]
+          }
+        ],
+        "decision": "SAT",
+        "examined": 16,
+        "flip_cost": 3,
+        "flips": [
+          "cache",
+          "preview"
+        ],
+        "model_count": 7
+      },
+      "source": {
+        "clauses": [
+          [
+            "cache",
+            "audit"
+          ],
+          [
+            "!preview",
+            "audit"
+          ],
+          [
+            "!telemetry",
+            "audit"
+          ],
+          [
+            "!cache",
+            "!telemetry"
+          ]
+        ],
+        "schema": "ConfigCohort-policy-v1",
+        "variables": [
+          {
+            "baseline": false,
+            "flip_weight": 5,
+            "id": "audit"
+          },
+          {
+            "baseline": false,
+            "flip_weight": 2,
+            "id": "cache"
+          },
+          {
+            "baseline": true,
+            "flip_weight": 1,
+            "id": "preview"
+          },
+          {
+            "baseline": false,
+            "flip_weight": 3,
+            "id": "telemetry"
+          }
+        ]
+      },
+      "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0"
+    },
+    "locked_at": 1792610963,
+    "owner": "0xde2ddc5613913385d67ab7f637e7484b39ab5344",
+    "reason": "",
+    "record_id": "ConfigH1022A",
+    "result": {
+      "assignment": {
+        "audit": false,
+        "cache": true,
+        "preview": false,
+        "telemetry": false
+      },
+      "bits": "0100",
+      "clauses": [
+        {
+          "index": 0,
+          "satisfied_by": [
+            "cache"
+          ]
+        },
+        {
+          "index": 1,
+          "satisfied_by": [
+            "!preview"
+          ]
+        },
+        {
+          "index": 2,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        },
+        {
+          "index": 3,
+          "satisfied_by": [
+            "!telemetry"
+          ]
+        }
+      ],
+      "decision": "SAT",
+      "examined": 16,
+      "flip_cost": 3,
+      "flips": [
+        "cache",
+        "preview"
+      ],
+      "model_count": 7
+    },
+    "revision": 2,
+    "revoked_at": 0,
+    "source": {
+      "clauses": [
+        [
+          "cache",
+          "audit"
+        ],
+        [
+          "!preview",
+          "audit"
+        ],
+        [
+          "!telemetry",
+          "audit"
+        ],
+        [
+          "!cache",
+          "!telemetry"
+        ]
+      ],
+      "schema": "ConfigCohort-policy-v1",
+      "variables": [
+        {
+          "baseline": false,
+          "flip_weight": 5,
+          "id": "audit"
+        },
+        {
+          "baseline": false,
+          "flip_weight": 2,
+          "id": "cache"
+        },
+        {
+          "baseline": true,
+          "flip_weight": 1,
+          "id": "preview"
+        },
+        {
+          "baseline": false,
+          "flip_weight": 3,
+          "id": "telemetry"
+        }
+      ]
+    },
+    "source_sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+    "source_url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json",
+    "status": "CONFIRMED"
+  },
+  "proof": {
+    "hash": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb",
+    "raw": {
+      "hash": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb",
+      "from_address": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "to_address": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "value": 0,
+      "status": "FINALIZED",
+      "execution_mode": "NORMAL",
+      "leader_only": false,
+      "result_name": "MAJORITY_AGREE",
+      "consensus_data": {
+        "leader_receipt": [
+          {
+            "mode": "leader",
+            "execution_result": "SUCCESS"
+          }
+        ]
+      }
+    },
+    "sdk": {
+      "hash": "0x534bdcfbcaf4c16631b5abe91660f6ed78e804630b609b6972f2ecaf2071aeeb",
+      "from_address": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "sender": "0xde2ddc5613913385D67aB7f637E7484B39AB5344",
+      "to_address": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "recipient": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+      "status": 7,
+      "statusName": "FINALIZED",
+      "execution_mode": "NORMAL",
+      "leader_only": false,
+      "result_name": "MAJORITY_AGREE",
+      "result": 6,
+      "consensus_data": {
+        "leader_receipt": [
+          {
+            "mode": "leader",
+            "execution_result": "SUCCESS"
+          }
+        ]
+      }
+    }
+  },
+  "pending": null,
+  "verified": true,
+  "exactResultMatched": true,
+  "certificateRecomputed": "7b27227609082251795cdce809268f85fb09668a458807e5e6be713d214c1b87",
+  "certificateMatched": true,
+  "scope": "Actual confirm FINALIZED/NORMAL/MAJORITY_AGREE/unique successful leader; exact CONFIRMED revision2 source/binding/SAT result and canonical full confirm capture SHA256 certificate verified. Revoke not exercised live.",
+  "userManuallyConfirmed": true,
+  "rootWarningOverrideClicked": false,
+  "decodeProof": "05-config-cohort-confirm-wallet-offline-decode-001.json",
+  "rawPrivateRuntimeFieldsPersisted": false
+}
