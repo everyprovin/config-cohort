@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-20T23:54:42.716Z",
+  "title": "ConfigCohort",
+  "kind": "project_contract",
+  "countedAsSeparateIndependentIC": false,
+  "profileSeq": 5,
+  "contractAddress": "0x5f2D1d6515659DD53A19f4BEea2F25d24333c3df",
+  "transactionHash": "0x5042ed889243387ea6f2534fc87c4f00995612947993285de972090a05a59821",
+  "sourceSha256": "9cee2f6a7c660df44831919cea9b8e1ede60e58b3492c58780c4973e5b90db54",
+  "network": "GenLayer Studio",
+  "chainId": 61999,
+  "constructorArgs": [],
+  "state": "FINALIZED",
+  "executionResult": "SUCCESS",
+  "executionMode": "NORMAL",
+  "leaderOnly": false,
+  "consensusResult": "MAJORITY_AGREE",
+  "value": 0,
+  "liveScope": "Constructor only; frontend wallet business lifecycle not exercised live.",
+  "publicSourceBytesVerified": true,
+  "onchainSourceSha256": "9cee2f6a7c660df44831919cea9b8e1ede60e58b3492c58780c4973e5b90db54",
+  "onchainCodeReadbackVerified": true,
+  "publication": {
+    "repository": "https://github.com/everyprovin/config-cohort",
+    "commit": "ab25aabf511f5fca7a5d47fa3ebf05c0a60dbc2c"
+  },
+  "hosting": {
+    "url": "https://everyprovin.github.io/config-cohort/",
+    "provider": "GitHub Pages",
+    "observedHttpStatus": 200,
+    "walletIntegration": "blocked_Malicious_warning_canceled",
+    "httpStatus": 200
+  },
+  "actualPortalSubmitted": false,
+  "publicFixture": {
+    "url": "https://raw.githubusercontent.com/everyprovin/config-cohort/05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f/profile05/projects/config-cohort/fixtures/policy.json",
+    "commit": "05a9edf0d3c19e7be82d56a24f1e11f0f34f6d4f",
+    "sha256": "5ce7d89a51a58d62ab6dd8d3cdd743e5187caeb0282116176f35db1d6a643ff0",
+    "bytes": 596,
+    "publicBytesVerified": true,
+    "synthetic": true
+  }
+}
